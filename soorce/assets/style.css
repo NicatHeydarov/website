@@ -1,0 +1,33 @@
+body section .navbar {
+  background-color: black;
+  display: flex;
+  height: 111px;
+  color: white;
+}
+body section .navbar .center ul {
+  display: flex;
+}
+body section .navbar .center ul li {
+  list-style: none;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+body section .navbar .navbarright nav {
+  margin-top: 35px;
+  margin-left: 61px;
+}
+body section .navbar .navbarright nav img {
+  height: 30px;
+}
+body section .navbar nav {
+  padding-left: 37%;
+  padding-top: 25px;
+}
+body section .navbar nav button {
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background: #df42b1;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
