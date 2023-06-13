@@ -6,11 +6,13 @@ body section .navbar {
 }
 body section .navbar .center ul {
   display: flex;
+  margin-left: 240px;
+  margin-top: 42px;
 }
 body section .navbar .center ul li {
   list-style: none;
-  margin-left: 70px;
-  font-size: 35px;
+  margin-left: 110px;
+  font-size: 15px;
   margin-top: 20px;
 }
 body section .navbar .navbarright nav {
@@ -24,9 +26,9 @@ body section .navbar nav {
   padding-left: 5%;
   padding-top: 25px;
 }
-body section .navbar nav button {
-  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
-  background: #df42b1;
+
+.interestingbutton {
+  position: relative;
   color: white;
   font-size: 18px;
   border-radius: 90px;
@@ -34,6 +36,31 @@ body section .navbar nav button {
   height: 64px;
   margin-top: -7px;
   margin-right: 50px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.interestingbutton:hover {
+  color: black !important;
+}
+
+.interestingbutton:hover::before {
+  left: 110% !important;
+}
+
+.interestingbutton::before {
+  content: "";
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background: #df42b1;
+  position: absolute;
+  height: 64px;
+  left: -10%;
+  bottom: 0;
+  left: 0;
+  width: 120%;
+  z-index: -1;
+  transition: 0.6s;
 }
 
 * {
@@ -53,14 +80,12 @@ img {
   vertical-align: middle;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -78,18 +103,15 @@ img {
           user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -99,8 +121,14 @@ img {
   width: 100%;
   text-align: center;
 }
+.text h1 {
+  font-size: 90px;
+  margin-left: 626px;
+  color: white;
+  margin-top: -100px;
+  z-index: 1;
+}
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -109,7 +137,6 @@ img {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -122,10 +149,9 @@ img {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -138,4 +164,100 @@ img {
   to {
     opacity: 1;
   }
+}
+.slideshow .button a {
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.slideshow .button a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pagetwo {
+  height: 890px;
+  background-color: #151853;
+  margin-top: -20px;
+  padding-top: 57px;
+}
+.pagetwo .writing {
+  margin-left: 350px;
+  width: 595px;
+}
+.pagetwo .writing h6 {
+  font-size: 14px;
+  color: #df42b1;
+}
+.pagetwo .writing h1 {
+  font-size: 20px;
+  color: white;
+  width: 300px;
+}
+.pagetwo .writing h5 {
+  letter-spacing: 1px;
+  color: #df42b1;
+  border-bottom: 2px solid #4b4d7b;
+  padding-bottom: 5px;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.pagetwo .writing h2 {
+  font-size: 40px;
+  color: white;
+  margin-top: 20px;
+}
+.pagetwo .writing h4 {
+  line-height: 1.8;
+  font-size: 16px;
+  color: white;
+}
+.pagetwo .writing img {
+  margin-left: 800px;
+  margin-top: -394px;
+}
+.pagetwo .writing .interesting-button {
+  position: relative;
+  color: white;
+  font-size: 18px;
+  border-radius: 90px;
+  width: 204px;
+  height: 64px;
+  margin-top: -7px;
+  margin-right: 50px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.interesting-button:hover {
+  color: black !important;
+}
+
+.interesting-button:hover::before {
+  left: 110% !important;
+}
+
+.interesting-button::before {
+  content: "";
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background: #df42b1;
+  position: absolute;
+  height: 64px;
+  left: -10%;
+  bottom: 0;
+  left: 0;
+  width: 120%;
+  z-index: -1;
+  transition: 0.6s;
+}
+
+.boxes {
+  display: flex;
+  margin-top: -113px;
+  margin-left: 293px;
+}
+.boxes .box {
+  border: 1px solid;
+  margin: 0px 15px;
 }/*# sourceMappingURL=style.css.map */
