@@ -1,41 +1,3 @@
-body section .navbar {
-  background-color: black;
-  display: flex;
-  height: 141px;
-  color: white;
-}
-body section .navbar .center ul {
-  display: flex;
-}
-body section .navbar .center ul li {
-  list-style: none;
-  margin-left: 70px;
-  font-size: 35px;
-  margin-top: 20px;
-}
-body section .navbar .navbarright nav {
-  margin-top: 35px;
-  margin-left: 61px;
-}
-body section .navbar .navbarright nav img {
-  height: 30px;
-}
-body section .navbar nav {
-  padding-left: 5%;
-  padding-top: 25px;
-}
-body section .navbar nav button {
-  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
-  background: #df42b1;
-  color: white;
-  font-size: 18px;
-  border-radius: 90px;
-  width: 204px;
-  height: 64px;
-  margin-top: -7px;
-  margin-right: 50px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -99,6 +61,11 @@ img {
   width: 100%;
   text-align: center;
 }
+.text h1 {
+  font-size: 60px;
+  margin-left: 626px;
+  color: black;
+}
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -138,4 +105,4 @@ img {
   to {
     opacity: 1;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=slide.css.map */
