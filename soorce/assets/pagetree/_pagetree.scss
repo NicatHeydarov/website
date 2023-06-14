@@ -1,8 +1,9 @@
 .pagetree {
+    position: relative;
+    z-index: 1;
     height: 1700px;
-    background-color: #df42b1;
     margin-top: -20px;
-    
+background-image:	url('https://preview.colorlib.com/theme/confer/img/bg-img/3.jpg');    
     .texts {
         text-align: center;
         padding-top: 150px;
@@ -134,4 +135,18 @@ left: 0;
 width: 120%;
 z-index: -1;
 transition: 0.6s;
+}
+.pagetree::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #c63fa4;
+    background-image: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background-image: -webkit-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background-image: -ms-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    opacity: 0.9;
 }
