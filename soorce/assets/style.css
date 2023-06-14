@@ -256,8 +256,146 @@ img {
   display: flex;
   margin-top: -113px;
   margin-left: 293px;
+  width: 1000px;
 }
 .boxes .box {
   border: 1px solid;
   margin: 0px 15px;
+  width: 170px;
+}
+.boxes .box h2 {
+  text-align: center;
+  font-size: 62px;
+}
+.boxes .box h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #5d5e8d;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+}
+
+.pagetree {
+  height: 1700px;
+  background-color: #df42b1;
+  margin-top: -20px;
+}
+.pagetree .texts {
+  text-align: center;
+  padding-top: 150px;
+  color: #ffffff;
+}
+.pagetree .texts h1 {
+  font-size: 38px;
+}
+.pagetree .cards {
+  display: flex;
+}
+.pagetree .cards .card {
+  margin-left: 100px;
+}
+.pagetree .cards .card img {
+  border-radius: 10px;
+}
+.pagetree .cards .card .about {
+  margin-top: -140px;
+  margin-left: 48px;
+}
+.pagetree .cards .card .about h5 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.pagetree .cards .card .about p {
+  margin-top: -5px;
+  color: #df42b1;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 400;
+}
+.pagetree .cardss {
+  display: flex;
+  margin-top: 50px;
+}
+.pagetree .cardss .cardtwo {
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.pagetree .cardss .cardtwo img {
+  border-radius: 10px;
+}
+.pagetree .cardss .cardtwo .writings {
+  margin-top: -200px;
+  margin-left: 20px;
+}
+.pagetree .cardss .cardtwo .writings h5 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.pagetree .cardss .cardtwo .writings p {
+  margin-top: -5px;
+  color: #df42b1;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 400;
+}
+.pagetree .viewall {
+  margin-top: 180px !important;
+  margin-left: 50%;
+}
+.pagetree .viewall {
+  position: relative;
+  color: white;
+  font-size: 18px;
+  border-radius: 90px;
+  width: 204px;
+  height: 64px;
+  margin-top: -7px;
+  margin-right: 50px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.viewall:hover {
+  color: black !important;
+}
+
+.interesting-button:hover::before {
+  left: 110% !important;
+}
+
+.viewall::before {
+  content: "";
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background: #df42b1;
+  position: absolute;
+  height: 64px;
+  left: -10%;
+  bottom: 0;
+  left: 0;
+  width: 120%;
+  z-index: -1;
+  transition: 0.6s;
+}
+
+.ourtimetable {
+  background-color: #151853;
+}
+.ourtimetable .weeks {
+  display: flex;
+  margin-left: 37%;
+}
+.ourtimetable .weeks .week {
+  background-color: #1f2371 !important;
+  border: 5px solid black;
+  margin-left: 30px;
 }/*# sourceMappingURL=style.css.map */

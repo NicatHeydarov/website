@@ -99,10 +99,24 @@
     display: flex;
     margin-top: -113px;
     margin-left: 293px;
+    width: 1000px;
    
     .box{
         border: 1px solid;
         margin: 0px 15px;
+        width: 170px;
+        h2{
+            text-align: center;
+            font-size: 62px;
+        }
+        h3{
+            margin-top: 5px;
+    font-size: 18px;
+    color: #5d5e8d;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+        }
     }
 }
 

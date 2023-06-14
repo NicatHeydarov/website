@@ -1,0 +1,13 @@
+.ourtimetable{
+  
+    background-color: #151853;
+    .weeks{
+        display: flex;
+        margin-left: 37%;
+        .week{
+            background-color: #1f2371 !important;
+            border: 5px solid black;
+            margin-left: 30px;
+        }
+    }
+}
