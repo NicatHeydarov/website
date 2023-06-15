@@ -1,0 +1,109 @@
+.pagesix{
+    height: 1300px;
+    background-color: #151853;
+    .sponsors{
+        padding-top: 100px;
+        h3{
+            color:#df42b1 ;
+            margin-left: 40%;
+        }
+        h1{
+            color: white;
+            font-size: 40px;
+            margin-left: 35%;
+        }
+    }
+    .sponsors-cards{
+     display: flex;
+        .sponsors-card{
+            background-color: #151853;
+            border: 1px solid gray;
+            width: 332px;
+            height: 220px;
+            
+            img{
+                margin-left: 8%;
+                margin-top: 17px;
+                width: 270px;
+            }
+            
+        }
+     
+        .sponsors-card:first-child{
+            margin-left: 150px;
+
+        }
+        .sponsors-card:hover{
+            border: 1px solid #df42b1;
+            transition: 600ms;
+        }
+    }
+    .sponsors-cardss{
+        display: flex;
+        .sponsors-card{
+            background-color: #151853;
+            border: 1px solid gray;
+            width: 332px;
+            height: 220px;
+            
+            img{
+                margin-left: 8%;
+                margin-top: 17px;
+                width: 270px;
+            }
+            
+        }
+        .sponsors-card:first-child{
+            margin-left: 150px;
+
+        }
+        
+        .sponsors-card:hover{
+            border: 1px solid #df42b1;
+            transition: 600ms;
+        }
+        .sponsors-card:nth-child(2){
+            img{
+                width: 200px;
+                margin-left: 55px;
+            }
+        }
+        .sponsors-card:nth-child(3){
+            img{
+                width: 170px;
+                margin-left: 70px;
+
+            }
+        }
+    }
+    .coment-cards{
+        display: flex;
+        
+
+        .coment-card{
+            color: white;
+            margin-left: 100px;
+            width: 600px;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;   
+        .aboutt{
+          margin-left: 130px;
+          margin-top: -103px;
+          h5{
+            color: #df42b1;
+          }
+        }
+        p{
+            padding-top: 20px;
+            font-size: 20px;
+        }     
+        img{
+            border-radius: 65px;
+        }
+    }
+
+ 
+    }
+    }
+    

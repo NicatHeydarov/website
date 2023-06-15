@@ -1,0 +1,152 @@
+.pagefive {
+    height: 1000px;
+    background-image: url('https://preview.colorlib.com/theme/confer/img/bg-img/14.jpg.webp');
+    position: relative;
+    z-index: 1;
+
+    .textss {
+        padding-top: 100px;
+        color: white;
+
+        h3 {
+            margin-left: 45%;
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            margin-left: 40%;
+        }
+    }
+
+    .value-cards {
+        margin-left: 40px;
+        display: flex;
+
+        .value-card {
+            margin-left: 100px;
+            border-radius: 10px;
+            width: 400px;
+            height: 600px;
+            background-color: white;
+
+
+            p {
+                margin-left: 120px;
+                font-size: 20px;
+                background-color: #df42b1;
+                color: white;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                width: 140px;
+                height: 40px;
+                text-align: center;
+                margin-top: 0px;
+            }
+
+            img {
+                margin-left: 40%;
+            }
+
+            ul {
+                .lists {
+                    list-style: none;
+                    margin-left: 3%;
+                    font-size: 22px;
+                    margin-top: 10px;
+                    color: gray;
+                }
+
+                .lists:nth-child(2) {
+                    margin-left: 25%;
+                }
+
+                .lists:nth-child(4) {
+                    margin-left: 25%;
+                }
+            }
+
+            .value {
+                h2 {
+                    margin-left: 30%;
+                    font-size: 60px;
+
+                    span {
+                        font-size: 39px;
+                    }
+                }
+
+            }
+        }
+        
+    }
+}
+
+.pagefive::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #c63fa4;
+    background-image: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background-image: -webkit-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background-image: -ms-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    opacity: 0.9;
+}
+
+
+
+.get-tickets {
+    position: relative;
+    
+    color: white;
+    font-size: 18px;
+    border-radius: 90px;
+    width: 204px;
+    height: 40px;
+    z-index: 1;
+    margin-left: 50px;
+    overflow: hidden;
+    transition: 0.6s;
+    
+}
+
+
+
+.get-tickets:hover {
+    
+    color: black !important;
+}
+
+.get-tickets:hover::before {
+    left: 110% !important;
+    
+    
+}
+
+
+.get-tickets::before {
+    content: '';
+    background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+    background: #df42b1;
+    position: absolute;
+    height: 64px;
+    left: -10%;
+    bottom: 0;
+    left: 0;
+    width: 120%;
+    z-index: -1;
+    transition: 0.6s;
+}
+
+
+.value-cards .value-card:hover{
+    transform: translateY(-40px);
+    box-shadow: rgba(0,0,0,0.25) 0px 14px 28px,rgba(0,0,0,0.22) 0px 10px 10px;
+    transition: 800ms;
+}
+
+

@@ -1,0 +1,86 @@
+.pageseven{
+    margin-top: -27px;
+  height: 1000px;
+    background-image: url(https://preview.colorlib.com/theme/confer/img/bg-img/17.jpg.webp);
+    position: relative;
+    z-index: 1;
+
+        h4{
+            padding-top: 100px;
+            margin-left: 45%;
+            font-size: 20px;
+            color: white;
+        }
+        h2{
+            margin-left: 40%;
+            font-size: 40px;
+            color: white;
+        }
+        .foods{
+            display: flex;
+            .food-card{
+                width: 500px;
+                height: 600px;
+                background-color: white;
+                border: 1px solid black;
+                margin-left: 100px;
+                border-radius: 10px;
+                .laura{
+                    button{
+                        margin-left: 40%;
+                        font-size: 40px;
+    border-radius: 54px;
+    background-color: #df42b1;
+                    }
+                }
+                img{
+                    width: 500px;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    
+                    
+                }
+                h2{
+                    color: black;
+                    font-size: 25px;
+                    margin-left: 88px;
+                    margin-top: 36px;
+                }
+                
+
+                    h5{
+                        color: #a1a7b7;
+                        margin-left: 70px;
+                    }
+                    p{
+                        color: #a1a7b7;
+                        margin-left: 300px;
+                        margin-top: -40px;
+                     
+                    }
+                    h3{
+                        margin-left: 50px;
+                        color: #5d5e8d;
+                        color: #5d5e8d;
+    font-size: 22px;
+    width: 404px;
+                    }
+
+                
+            }
+        }
+}
+.pageseven::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #505add;
+    background-image: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background-image: -webkit-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background-image: -ms-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    opacity: 0.9;
+}

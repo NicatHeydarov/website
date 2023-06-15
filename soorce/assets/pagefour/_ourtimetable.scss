@@ -1,4 +1,5 @@
 .ourtimetable{
+   
     .writingss{
         padding-top: 50px;
         h4{
@@ -13,7 +14,7 @@
     }
   
     background-color: #151853;
-    height: 1350px;
+    height: 1320px;
     .weeks{
         display: flex;
        
@@ -135,3 +136,101 @@ transition: 0.6s;
     border: 1px solid #ccc;
     border-top: none;
   }
+  .tabcontent{
+    margin-top: 120px;
+    margin-left: -73%;
+  }
+  .tab{
+    margin-left: 50%;
+    display: flex;
+    height: 100px;
+
+  }
+  .tablinks{
+    display: flex;
+    width: 130px;
+    background-color: #1f2371;
+    text-align: center;
+    p{
+        
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+  }
+  .tablinks:hover{
+    background-color: white;
+    transition: 1800ms;
+    color: black;
+  }
+  .tablinks:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100px;
+  }
+  .tablinks:nth-child(3){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+.boxess{
+    h3{
+        color: white;
+    }
+    p{
+        color: gray;
+        span{
+            color: white;
+        }
+    }
+}
+.ourtimetable{
+    .download-button{
+        margin-top: 100px;
+         margin-left: 40%;
+        .download{
+            position: relative;
+
+            color: white;
+            font-size: 18px;
+            border-radius: 90px;
+            width: 350px;
+            height: 64px;
+            margin-top: -7px;
+            margin-right: 50px;
+            z-index: 1;
+            overflow: hidden;
+            transition: 0.6s;
+background-color: #df42b1;
+        }
+
+
+    }
+}
+
+.download:hover {
+
+    color: white!important;
+}
+
+.download:hover::before {
+    left: 110% !important;
+
+
+}
+
+
+.download::before {
+    content: '';
+    background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+    background: #1f2371;
+    position: absolute;
+    height: 64px;
+    left: -10%;
+    bottom: 0;
+    left: 0;
+    width: 120%;
+    z-index: -1;
+    transition: 0.6s;
+}
+    
+
